@@ -1,0 +1,95 @@
+@font-face {
+    font-family: Roboto;
+    src: url(https://fonts.google.com/share?selection.family=Roboto:wght@100);
+}
+
+body {
+    font-family: Roboto, serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+}
+
+.header-logo  {
+    display: flex; 
+    color:#f9faf8;
+    font-size: 24px;
+    font-weight: 900;
+    align-items: center;
+    margin-left: 200px;
+}
+    
+.links {
+    display: flex;
+    font-size: 18px;
+    gap: 15px;
+    margin-right: 200px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+a.header-link:link, a.header-link:visited {
+    text-decoration: none;
+    color:#f9faf8;
+}
+
+li {
+    list-style: none;
+}
+
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    height: 500px;
+    justify-content: space-between;
+}
+
+.hero1 {
+    margin-top: 120px;
+    flex-direction: column;
+}
+
+.hero-header {
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 48px;
+    margin-left: 200px;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-left: 200px;
+}
+
+.sign-up {
+    color: #e5e7eb;
+    background-color: #3882f6;
+    margin: 5px 0 0 200px;
+    height: 30px;
+    width: 125px;
+    border-radius: 8px;
+    border: none;
+    text-decoration: none;
+}
+
+.image {
+    width: 500px;
+    height: 220px;
+    margin: 120px 200px 0 0;
+    object-fit: cover;
+    flex-shrink: 1;
+}
+
+
+
+
