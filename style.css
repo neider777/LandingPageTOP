@@ -94,7 +94,7 @@ li {
     display: flex;
     flex-direction: column;
     height: 500px;
-    background-color: #ffffff;
+    background-color: #f9f9f9;
 }
 
 .info-header {
@@ -158,19 +158,22 @@ figcaption {
     justify-content: center;
     align-items: center;
     height: 500px;
-    background-color: #ffffff;
+    background-color: #f9f9f9;
 }
 
 .cta-box {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center ;
+    align-items: center;
     height: 150px;
     width: 850px;
     background-color: #3882f6;
     border-radius: 5px;
-    
+}
+
+.cta-text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .cta-header, .cta-text {
@@ -191,21 +194,21 @@ figcaption {
     height: 40px;
     width: 125px;
     border-radius: 8px;
-    border-color: #ffffff;
+    border-color: #f9f9f9;
     border-style: solid;
     text-decoration: none; 
     font-size: 16px;
-    font-weight: 700; 
+    font-weight: 700;
+    margin: -5px 0 0 40px; 
 }
 
-.button-box {
+.footer {
     display: flex;
-    gap: 90px;
-}
-
-.cta-button {
-    margin-bottom: 20px;
-
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    height: 125px;
 }
 
 
